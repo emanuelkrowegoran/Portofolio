@@ -20,7 +20,7 @@ body {
 }
 
 a {
-    color: #4070F4;
+    color: #ffffff;
     text-decoration: none;
 }
 
@@ -143,7 +143,7 @@ section {
     right: 15px;
     bottom: 15px;
     z-index: 99999;
-    background: #4070F4;
+    background: #063ed8;
     width: 40px;
     height: 40px;
     border-radius: 4px;
@@ -545,7 +545,7 @@ section {
 @media (max-width: 991px) {
     .hero {
         height: auto;
-        padding: 120px 0 60px 0;
+        padding: 0 0 60px 0;
     }
     .hero .hero-img {
         text-align: center;
@@ -587,7 +587,7 @@ section {
     }
     #hero .container,
     #hero .container-fluid {
-        padding-top: 68px;
+        padding-top: 10px;
     }
     #hero .animated {
         -webkit-animation: none;
@@ -2862,59 +2862,9 @@ ol li {
 --------------------------------------------------------------*/
 
 .footer {
-    background: #f6f9ff;
+    background: #001731;
     padding: 0 0 30px 0;
     font-size: 14px;
-}
-
-.footer .footer-newsletter {
-    padding: 50px 0;
-    background: #f6f9ff;
-    border-top: 1px solid #e1ecff;
-}
-
-.footer .footer-newsletter h4 {
-    font-size: 24px;
-    margin: 0 0 10px 0;
-    padding: 0;
-    line-height: 1;
-    font-weight: 700;
-    color: #012970;
-}
-
-.footer .footer-newsletter form {
-    margin-top: 20px;
-    background: #fff;
-    padding: 6px 10px;
-    position: relative;
-    border-radius: 4px;
-    border: 1px solid #e1ecff;
-}
-
-.footer .footer-newsletter form input[type="email"] {
-    border: 0;
-    padding: 8px;
-    width: calc(100% - 140px);
-}
-
-.footer .footer-newsletter form input[type="submit"] {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    border: 0;
-    background: none;
-    font-size: 16px;
-    padding: 0 30px;
-    margin: 3px;
-    background: #4070F4;
-    color: #fff;
-    transition: 0.3s;
-    border-radius: 4px;
-}
-
-.footer .footer-newsletter form input[type="submit"]:hover {
-    background: #5969f3;
 }
 
 .footer .footer-top {
@@ -2971,13 +2921,13 @@ ol li {
 }
 
 .footer .footer-top .social-links a:hover {
-    color: #012970;
+    color: #000000;
 }
 
 .footer .footer-top h4 {
     font-size: 16px;
     font-weight: bold;
-    color: #012970;
+    color: #ffffff;
     text-transform: uppercase;
     position: relative;
     padding-bottom: 12px;
@@ -3011,7 +2961,7 @@ ol li {
 }
 
 .footer .footer-top .footer-links ul a {
-    color: #013289;
+    color: #ffffff;
     transition: 0.3s;
     display: inline-block;
     line-height: 1;
@@ -3022,18 +2972,23 @@ ol li {
 }
 
 .footer .footer-top .footer-contact p {
-    line-height: 26px;
+    line-height: 16px;
 }
 
 .footer .copyright {
     text-align: center;
     padding-top: 30px;
-    color: #012970;
+    color: #ffffff;
+    font-size: 12px;
 }
 
 .footer .credits {
     padding-top: 10px;
     text-align: center;
-    font-size: 13px;
-    color: #012970;
+    font-size: 10px;
+    color: #ffffff;
+}
+
+.footer .credits a {
+    color: #ffffff;
 }
