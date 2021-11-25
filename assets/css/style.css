@@ -44,7 +44,7 @@ h6 {
 --------------------------------------------------------------*/
 
 section {
-    padding: 60px 0;
+    padding: 20px 0;
     overflow: hidden;
 }
 
@@ -656,6 +656,10 @@ section {
 # About
 --------------------------------------------------------------*/
 
+.about {
+    padding: 10px 10px 60px 10px;
+}
+
 .about .content {
     background-color: #ffffff;
     padding: 20px;
@@ -671,26 +675,26 @@ section {
 .about h2 {
     font-size: 34px;
     font-weight: 700;
-    color: #012970;
+    color: #000000;
 }
 
 .about p {
     margin: 15px 0 30px 0;
     line-height: 20px;
-    font-size: 12x;
+    font-size: 14px;
 }
 
 .about .about__img img {
     border: 8px solid #fff;
     box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.2);
-    width: 400px;
+    width: 100%;
     border-radius: .5rem;
     text-align: center;
 }
 
-.about .btn-read-more {
+.about .btn-cv {
     line-height: 0;
-    padding: 15px 40px;
+    padding: 10px 20px;
     border-radius: 4px;
     transition: 0.5s;
     color: #fff;
@@ -698,14 +702,14 @@ section {
     box-shadow: 0px 5px 25px rgba(65, 84, 241, 0.3);
 }
 
-.about .btn-read-more span {
+.about .btn-cv span {
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 600;
-    font-size: 14px;
+    font-size: 12px;
     letter-spacing: 1px;
 }
 
-.about .btn-read-more i {
+.about .btn-cv i {
     margin-left: 5px;
     font-size: 18px;
     transition: 0.3s;
@@ -721,7 +725,7 @@ section {
 }
 
 .about-profile .pro-title {
-    font-weight: 700;
+    font-weight: 400;
     color: #040404;
     position: relative;
     width: 120px;
@@ -732,7 +736,13 @@ section {
 .about-profile .pro-title span {
     margin: 15px 0 30px 0;
     line-height: 20px;
-    font-size: 12x;
+    font-size: 10px;
+}
+
+.about-profile .pro-detail {
+    margin: 15px 0 30px 0;
+    line-height: 20px;
+    font-size: 14px;
 }
 
 ul,
